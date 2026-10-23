@@ -29,10 +29,17 @@ network blocks a direct connection, an encrypted relay passes the data on withou
 
 ## Open source
 
-Coming here: the **protocol** (pairing, key exchange, safety code, message formats, threat model; CC BY 4.0), the
-**core library** that encrypts and moves files (Apache-2.0, published as `@paironce/core`), the **interface
-translations**, and our **security policy**. The goal is that "we cannot see your files" can be checked, not just
-believed.
+The part that decides whether your files stay private is open, so it can be checked rather than believed
+(version 2.1.0, the same code paironce.com runs):
+
+| Repository | What | License |
+| --- | --- | --- |
+| [protocol](https://github.com/paironce/protocol) | How pairing, key exchange, the safety code and transfers work; the threat model | CC BY 4.0 |
+| [core](https://github.com/paironce/core) | `@paironce/core`: frame encryption, pairing cryptography, file-transfer framing | Apache-2.0 |
+| [locales](https://github.com/paironce/locales) | The interface in 13 languages: translation fixes welcome | Apache-2.0 |
+| [security](https://github.com/paironce/security) | How to report a vulnerability; every production release and the core version it runs | CC BY 4.0 |
+
+The web app, the signaling service and the relay are not open source.
 
 ## Security and contact
 
