@@ -1,6 +1,6 @@
 # PairOnce
 
-**PairOnce — browser-to-browser file transfer between your devices. No app, no account, nothing stored on a server.**
+**PairOnce — browser-to-browser file transfer between your devices. No app, no account, files never stored on a server.**
 
 [paironce.com](https://paironce.com) · 13 languages
 
@@ -14,7 +14,7 @@ network blocks a direct connection, an encrypted relay passes the data on withou
 | --- | --- |
 | Install | Nothing to install: it runs in Chrome, Edge and Safari, and can be added to the home screen |
 | Account | None |
-| File size | Up to 2 GB per file when the receiving browser saves straight to disk (Chrome, Edge); otherwise 50 MB per file |
+| File size | Up to 2 GB per file when the receiving browser saves straight to disk (Chrome, Edge), or 10 GB with PairOnce Pro on one of the two devices; otherwise 50 MB per file |
 | Across networks | Yes: direct when possible, otherwise through a relay (200 MB per device each month free) |
 | Encryption | End to end: AES-256-GCM with keys from the two devices' ECDH keys; a 13-digit safety code to compare |
 | Stored on our servers | Nothing: no files, no file names, no messages |
